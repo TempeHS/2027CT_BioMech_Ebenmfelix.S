@@ -1,0 +1,87 @@
+{
+  "name": "C++ Arduino Development Container",
+
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-24.04",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+
+  "hostRequirements": {
+    "cpus": 4
+  },
+
+  "waitFor": "postCreateCommand",
+
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y --no-install-recommends ca-certificates curl clang cmake ninja-build gdb gdb-multiarch valgrind && curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sudo env BINDIR=/usr/local/bin sh && arduino-cli config init --overwrite && arduino-cli core update-index && arduino-cli core install arduino:avr && sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/* && rm -f .git/hooks/pre-push",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.autoSave": "onFocusChange",
+
+        "files.associations": {
+          "*.ino": "cpp",
+          "*.h": "cpp",
+          "*.hpp": "cpp",
+          "*.c": "c",
+          "*.cpp": "cpp"
+        },
+
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.fontSize": 18,
+
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+
+        "extensions.ignoreRecommendations": true,
+
+        "terminal.integrated.defaultProfile.linux": "bash",
+
+        "window.restoreWindows": "preserve",
+
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        },
+
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.iconTheme": "vscode-icons",
+
+        "github.copilot.enable": {
+          "cpp": false,
+          "c": false
+        },
+
+        "chat.agent.enabled": false,
+
+        "C_Cpp.default.cppStandard": "c++17",
+        "C_Cpp.default.cStandard": "c11",
+        "C_Cpp.default.compilerPath": "/usr/bin/clang",
+        "C_Cpp.default.intelliSenseMode": "linux-clang-x64",
+        "C_Cpp.clang_format_fallbackStyle": "Google"
+      },
+
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "bierner.markdown-mermaid",
+        "bierner.markdown-preview-github-styles",
+        "esbenp.prettier-vscode",
+        "GitHub.codespaces",
+        "mathematic.vscode-pdf",
+        "McCarter.start-git-bash",
+        "oderwat.indent-rainbow",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-british-english",
+        "yusifaliyevpro.vscicons",
+        "saeris.markdown-github-alerts",
+        "benpaddlejones.arduino-to-codespaces-bridge"
+      ]
+    }
+  }
+}

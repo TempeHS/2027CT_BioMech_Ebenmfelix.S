@@ -1,0 +1,34 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "ignorePaths": [
+    ".git/**",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.drawio"
+  ],
+  "ignoreRegExpList": [
+    "/https?:\\/\\/[^\\s)]+/g"
+  ],
+  "words": [
+    "Arduino",
+    "ARDUINO",
+    "Ardunio",
+    "Bootcamp",
+    "TINKERCAD",
+    "OLED",
+    "PWMpin",
+    "incrementer",
+    "decrementer",
+    "centimeters",
+    "Erick",
+    "microcontroller",
+    "microcontrollers",
+    "Simoes",
+    "Simões",
+    "eliotlim",
+    "Otacilio",
+    "otacilio"
+  ]
+}

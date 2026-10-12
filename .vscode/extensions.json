@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cmake-tools",
+    "bierner.markdown-mermaid",
+    "bierner.markdown-preview-github-styles",
+    "esbenp.prettier-vscode",
+    "GitHub.codespaces",
+    "mathematic.vscode-pdf",
+    "McCarter.start-git-bash",
+    "oderwat.indent-rainbow",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-british-english",
+    "yusifaliyevpro.vscicons",
+    "saeris.markdown-github-alerts",
+    "benpaddlejones.arduino-to-codespaces-bridge"
+  ]
+}
