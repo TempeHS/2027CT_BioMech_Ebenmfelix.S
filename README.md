@@ -1,3 +1,12 @@
+
+The CardioGuard Sternum Monitor is a wearable medical technology device that straps securely against the sternum and uses EKG (electrical sensors) to track heart rate in real time while training. The device acts by emmitting a growing vibration while Vivians heart rate approaches 150 BPM. 
+
+This device is custom-tailored for Vivian, an active student athlete who participates in intense daily volleyball training and has personal requirements centered around high mobility and reliability. Because she is an aspiring Olympic athlete returning to sport, she needs a discrete, lightweight monitor that stays firmly in place during rapid athletic movements like jumping and diving without getting in the way of her game.
+
+This intervention is necessary because Vivian has a coronary artery defect and a stent placed superior to the right ventricle, meaning her heart rate cannot safely exceed 150 BPM after her recent 6-week convalescence. Medical safety guidelines for patients with stents dictate that overexertion can place dangerous physical stress on the repaired vessel and surrounding heart tissue.
+
+By providing a growing vibration as she approaches 150 BPM, this device gives Vivian the immediate feedback that is needed to self-regulate her physicall activity. It allows her to return to competitive training safely and independently, reducing her risk of cardiac distress while still playing volleyball.
+
 # TempeHS Arduino Bootcamp
 
 This is the folder structure and starter files for students completing the TempeHS Arduino Bootcamp.
