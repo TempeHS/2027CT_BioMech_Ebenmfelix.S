@@ -30,7 +30,9 @@ Referring Specialist: Ben Jones - benjamin.jones21@det.nsw.edu.au
 
 Controllers:
   - Arduino Uno
+
 Sensors:
   - Electrical sensors
+
 Actuators:
   - ERM vibration machine
