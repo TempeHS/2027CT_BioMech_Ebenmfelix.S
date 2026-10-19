@@ -4,6 +4,8 @@
 # Platforms
 platform arduino:avr 1.8.8
 
+# Libraries
+library "Grove - Haptic Motor" 1.0.0
 
 # Devices (learned from successful uploads)
 device 0x10c4:0xea60 arduino:avr:uno
