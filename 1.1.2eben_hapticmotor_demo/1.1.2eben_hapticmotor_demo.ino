@@ -12,7 +12,7 @@ void setup()
 
 void loop()
 {
-/*
+
     unsigned char i;
     for(i=1;i<124;i++)
     {
@@ -22,7 +22,7 @@ void loop()
         haptic.drv2605_Play_Waveform(i);
         delay(2000);
     }
-*/
-    haptic.drv2605_Play_Waveform(118);
-    delay(2000);
+
+    /*haptic.drv2605_Play_Waveform(118);
+    delay(2000);*/
 }
