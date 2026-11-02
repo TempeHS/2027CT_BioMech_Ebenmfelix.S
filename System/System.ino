@@ -18,10 +18,10 @@ void loop() {
 unsigned char HeartRate = HeartRateData();
 Serial.println(HeartRate);
 
-if (HeartRate > 65) {
-
+if (HeartRate > 130) {
+    int Delay = map(HeartRate, 130, 150, 500, 50);
     HapticRun();
-
+    delay(Delay);
 }
 
 delay(500);
