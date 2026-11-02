@@ -18,7 +18,7 @@ void loop() {
 unsigned char HeartRate = HeartRateData();
 Serial.println(HeartRate);
 
-if (HeartRate > 65) {
+if (HeartRate > 130) {
 
     HapticRun();
 
